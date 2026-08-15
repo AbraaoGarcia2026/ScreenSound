@@ -1,0 +1,14 @@
+C:\Git\pessoal\ScreenSound\bin\Debug\net10.0\screenSound.exe
+C:\Git\pessoal\ScreenSound\bin\Debug\net10.0\screenSound.deps.json
+C:\Git\pessoal\ScreenSound\bin\Debug\net10.0\screenSound.runtimeconfig.json
+C:\Git\pessoal\ScreenSound\bin\Debug\net10.0\screenSound.dll
+C:\Git\pessoal\ScreenSound\bin\Debug\net10.0\screenSound.pdb
+C:\Git\pessoal\ScreenSound\obj\Debug\net10.0\screenSound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\pessoal\ScreenSound\obj\Debug\net10.0\screenSound.AssemblyInfoInputs.cache
+C:\Git\pessoal\ScreenSound\obj\Debug\net10.0\screenSound.AssemblyInfo.cs
+C:\Git\pessoal\ScreenSound\obj\Debug\net10.0\screenSound.csproj.CoreCompileInputs.cache
+C:\Git\pessoal\ScreenSound\obj\Debug\net10.0\screenSound.dll
+C:\Git\pessoal\ScreenSound\obj\Debug\net10.0\refint\screenSound.dll
+C:\Git\pessoal\ScreenSound\obj\Debug\net10.0\screenSound.pdb
+C:\Git\pessoal\ScreenSound\obj\Debug\net10.0\screenSound.genruntimeconfig.cache
+C:\Git\pessoal\ScreenSound\obj\Debug\net10.0\ref\screenSound.dll
