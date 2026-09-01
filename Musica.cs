@@ -5,6 +5,7 @@ class Musica
     public string Artista  { get; set; }
     public int Duracion  { get; set; }
     public bool Disponivel { get; set; }
+    public Genero Genero  { get; set; }
 
     public string DescricaoResumida => $"A musica {Nome} pertence a banda {Artista}";
 
