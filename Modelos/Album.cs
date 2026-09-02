@@ -1,4 +1,4 @@
-
+namespace ScreenSound.Modelos;
 
 class Album
 {
@@ -7,9 +7,10 @@ class Album
         Nome = nome;
     }
     private List<Musica> musicas = new List<Musica>();
+    public List<Musica> Musicas => musicas;
+    
     public string Nome { get; }
     public int DuracaoTotal => musicas.Sum(m => m.Duracao);
-    public List<Musica> Musicas => musicas;
     
     public void ExibirMusicaDoAlbum()
     {

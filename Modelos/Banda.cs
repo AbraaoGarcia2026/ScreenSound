@@ -1,3 +1,4 @@
+namespace ScreenSound.Modelos;
 
 class Banda
 {
