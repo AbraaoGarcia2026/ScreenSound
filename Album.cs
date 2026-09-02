@@ -8,13 +8,9 @@ class Album
     }
     private List<Musica> musicas = new List<Musica>();
     public string Nome { get; }
-    public int DuracaoTotal => musicas.Sum(m => m.Duracion);
-
-    public void AdicionarMusica(Musica musica)
-    {
-        musicas.Add(musica);
-    }
-
+    public int DuracaoTotal => musicas.Sum(m => m.Duracao);
+    public List<Musica> Musicas => musicas;
+    
     public void ExibirMusicaDoAlbum()
     {
         Console.WriteLine($"Lista de musicas do album {Nome}:\n");
