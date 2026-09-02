@@ -1,18 +1,23 @@
 ﻿
 class Musica
 {
-    public string Nome { get; set; }
-    public string Artista  { get; set; }
+    public Musica(Banda artista, string nome)
+    {
+        Artista = artista;
+        Nome = nome;
+    }
+    
+    public string Nome { get; }
+    public Banda Artista  { get; }
     public int Duracion  { get; set; }
     public bool Disponivel { get; set; }
-    public Genero Genero  { get; set; }
 
     public string DescricaoResumida => $"A musica {Nome} pertence a banda {Artista}";
 
     public void ExibirFichaTecnica()
     {
         Console.WriteLine($"Nome da Musica: {Nome}");
-        Console.WriteLine($"Nome do Artista: {Artista}");
+        Console.WriteLine($"Nome do Artista: {Artista.Nome}");
         Console.WriteLine($"Duração: {Duracion}");
         if (Disponivel == true)
         {
@@ -28,7 +33,4 @@ class Musica
     {
         Console.WriteLine($"Nome/Artista: {Nome} - {Artista}");
     }
-
-    // Funcao Lanbda 
-    public int Somar(int a, int b) => a + b;
 }

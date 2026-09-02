@@ -8,20 +8,21 @@
     "net10.0": []
   },
   "packageFolders": {
-    "/Users/abraao101icloud.com/.nuget/packages/": {}
+    "C:\\Users\\abraao.silva\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/abraao101icloud.com/RiderProjects/ScreenSound/screenSound.csproj",
+      "projectUniqueName": "C:\\Users\\abraao.silva\\RiderProjects\\ScreenSound\\screenSound.csproj",
       "projectName": "screenSound",
-      "projectPath": "/Users/abraao101icloud.com/RiderProjects/ScreenSound/screenSound.csproj",
-      "packagesPath": "/Users/abraao101icloud.com/.nuget/packages/",
-      "outputPath": "/Users/abraao101icloud.com/RiderProjects/ScreenSound/obj/",
+      "projectPath": "C:\\Users\\abraao.silva\\RiderProjects\\ScreenSound\\screenSound.csproj",
+      "packagesPath": "C:\\Users\\abraao.silva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\abraao.silva\\RiderProjects\\ScreenSound\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/abraao101icloud.com/RiderProjects/ScreenSound/NuGet.Config",
-        "/Users/abraao101icloud.com/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\abraao.silva\\RiderProjects\\ScreenSound\\NuGet.Config",
+        "C:\\Users\\abraao.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -68,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/abraao101icloud.com/.dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Users\\abraao.silva\\.dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -1,18 +1,7 @@
 ﻿
 
-Album albumDoQuen = new Album();
-albumDoQuen.Nome = "A night at the opera";
+Episodio ep1 = new (1, "Tecnicas de facilitação", 45);
+ep1.AdicionarConvidados("Maria");
+ep1.AdicionarConvidados("Jose");
+Console.WriteLine(ep1.Resumo);
 
-Musica musica1 = new Musica();
-musica1.Nome = "Love of my live";
-musica1.Duracion = 213;
-
-Musica  musica2 = new Musica();
-musica2.Nome = "Bohemian Rhapsody";
-musica2.Duracion = 360;
-
-
-albumDoQuen.AdicionarMusica(musica1);
-albumDoQuen.AdicionarMusica(musica2);
-
-albumDoQuen.ExibirMusicaDoAlbum();
