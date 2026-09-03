@@ -1,11 +1,12 @@
 namespace ScreenSound.Modelos;
 
-class Album
+public class Album
 {
     public Album(string nome)
     {
         Nome = nome;
     }
+    
     private List<Musica> musicas = new List<Musica>();
     public List<Musica> Musicas => musicas;
     
@@ -20,5 +21,11 @@ class Album
             Console.WriteLine($"Musica: {musica.Nome}");
         }
         Console.WriteLine($"\nPara ouvir este album inteiro voce precisa de {DuracaoTotal}");
+    }
+
+    public static int ContadorDeObjetos = 0;
+    public Album()
+    {
+        ContadorDeObjetos++;
     }
 }
