@@ -1,8 +1,9 @@
 using screenSound;
+using screenSound.Modelos;
 
 namespace ScreenSound.Modelos;
 
-public class Banda
+public class Banda : IAvaliavel
 {
     public Banda(string nome)
     {
