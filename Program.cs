@@ -1,6 +1,9 @@
 ﻿using screenSound;
 using screenSound.Menus;
 using ScreenSound.Modelos;
+using OpenAI;
+
+//var client = new OpenAI("");
 
 Banda ira = new Banda("Ira!");
 ira.AdicionarNota(new Avaliacao(10));
